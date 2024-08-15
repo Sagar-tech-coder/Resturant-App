@@ -1,0 +1,49 @@
+.header{
+    padding: 2vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-items > ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items > ul > li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-weight: 600;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 10px 25px;
+    background: none;
+    background-color: rgb(123, 172, 188);
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-login{
+    background-color: green;
+}
+
+.btn-logout{
+    background-color: rgb(246, 38, 38);
+}

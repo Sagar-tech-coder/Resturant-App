@@ -1,0 +1,29 @@
+.menu > ul > li{
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.itemPrice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disscount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.offer-icon{
+    color: green;
+}

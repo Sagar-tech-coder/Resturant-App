@@ -1,0 +1,65 @@
+.res-card{
+    padding: 5px;
+    height: 330px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #888888;
+    transition: all 0.5s ease;
+}
+
+.res-logo{
+    height: 200px;
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h3{
+    font-size: 15px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.locality{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.star-line{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.ratings{
+    font-size: 10px;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 15px;
+    background-color: rgb(92, 168, 92);
+}
+
+.time{
+    font-size: 12px;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+}
+
+.cuisine{
+    font-size: 12px;
+    display: flex;
+}
